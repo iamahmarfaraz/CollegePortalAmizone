@@ -4,7 +4,6 @@ body {
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-
 body::-webkit-scrollbar {
     display: none;
 }
@@ -940,8 +939,8 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* transform: translateY(-30px); */
-    transition: all .4s linear;
+    transform: translateY(-30px);
+    transition: all 200ms linear;
     /* display: none; */
     opacity: 0;
 }
